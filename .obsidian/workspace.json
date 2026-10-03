@@ -1,0 +1,275 @@
+{
+  "main": {
+    "id": "47b3ae88ef503940",
+    "type": "split",
+    "children": [
+      {
+        "id": "84fce10208ef671c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22317b417e0f9ff1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vllm/引言-大模型推理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "引言-大模型推理"
+            }
+          },
+          {
+            "id": "3f5e2a0a1aa80554",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-09-29 14.41.27.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-29 14.41.27.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1a9a871863e23727",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f1c1bb924808491",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2614dfec7c1334c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ad801b7b1b45b5fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "8c4ee7bc95ca20f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "b484595ff4e9ba35",
+    "type": "split",
+    "children": [
+      {
+        "id": "55feef5c631b4810",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "214cd41c567424fe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "欢迎.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "02e16868147fc420",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "e92ec92ae59eb348",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "fd2287f848becc3a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "0bc8d2f466f7d7eb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-09-29 14.41.27.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "f0e79220d27621c8",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent"
+            }
+          },
+          {
+            "id": "fd442cf553b95cc4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 338.62603759765625
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Agent Chat": false
+    }
+  },
+  "active": "3f5e2a0a1aa80554",
+  "lastOpenFiles": [
+    "CUDA/入门.md",
+    "Pasted image 20261001152247.png",
+    "Pasted image 20261001145908.png",
+    "copilot/copilot-conversations/agent__一个SM中只有一个Warp吗，共享内存是位于Warp内，还是位@20261001_144238.md",
+    "copilot/copilot-conversations",
+    "Pasted image 20261001143622.png",
+    "Pasted image 20261001143147.png",
+    "Pasted image 20261001113752.png",
+    "Pasted image 20261001112744.png",
+    "Pasted image 20261001110212.png",
+    "CS336/第八章 分布式训练.md",
+    "CUDA",
+    "Excalidraw/Drawing 2026-09-29 14.41.27.excalidraw.md",
+    "Excalidraw",
+    "vllm/引言-大模型推理.md",
+    "Pasted image 20260928221312.png",
+    "Pasted image 20260906160928.png",
+    "vllm/KV Cache与PageAttention的优化.md",
+    "CS336/第六章 GPU和相关优化.md",
+    "欢迎.md",
+    "路线计划.md",
+    "vllm",
+    "Pasted image 20260927214222.png",
+    "CS336/前言.md",
+    "CS336/第四章 语言模型架构、训练技术细节.md",
+    "CS336/第三章 pytorch和资源核算.md",
+    "CS336/第二章 分词器.md",
+    "copilot/projects/CS336/project.md",
+    "copilot/projects/CS336",
+    "copilot/projects",
+    "copilot/skills/obsidian-cli/SKILL.md",
+    "copilot/skills/obsidian-cli/LICENSE",
+    "copilot/skills/obsidian-cli",
+    "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/LICENSE",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
+    "copilot/skills/json-canvas/references",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/openartifacts-publish/SKILL.md"
+  ]
+}
