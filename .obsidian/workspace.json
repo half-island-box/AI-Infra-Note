@@ -225,8 +225,9 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "8a033c86bcb9da76",
+  "active": "fd442cf553b95cc4",
   "lastOpenFiles": [
+    "README.md",
     "分布式训练/并行方式/数据并行.md",
     "分布式训练/并行方式/张量并行.md",
     "分布式训练/并行方式/3D并行.md",
@@ -262,7 +263,6 @@
     "CS336/第四章 语言模型架构、训练技术细节.md",
     "LLM结构/引言.md",
     "Pasted image 20261019143248.png",
-    "LLM结构/Models/未命名.md",
     "LLM结构/Models",
     "LLM结构/Layers",
     "Pasted image 20261019125604.png",
