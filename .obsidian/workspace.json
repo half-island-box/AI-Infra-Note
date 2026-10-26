@@ -8,33 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "22317b417e0f9ff1",
+            "id": "8a033c86bcb9da76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vllm/引言-大模型推理.md",
+                "file": "分布式训练/并行方式/流水线并行.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "引言-大模型推理"
+              "title": "流水线并行"
             }
           },
           {
-            "id": "3f5e2a0a1aa80554",
+            "id": "e9225ed881c78782",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-29 14.41.27.excalidraw.md"
+                "file": "LLM结构/Models/Qwen3模型适配.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-29 14.41.27.excalidraw"
+              "icon": "lucide-file",
+              "title": "Qwen3模型适配"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "MFU",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-29 14.41.27.excalidraw.md",
+                "file": "分布式训练/ZeRO显存优化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,7 +205,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -224,52 +225,53 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "3f5e2a0a1aa80554",
+  "active": "8a033c86bcb9da76",
   "lastOpenFiles": [
-    "CUDA/入门.md",
-    "Pasted image 20261001152247.png",
-    "Pasted image 20261001145908.png",
-    "copilot/copilot-conversations/agent__一个SM中只有一个Warp吗，共享内存是位于Warp内，还是位@20261001_144238.md",
-    "copilot/copilot-conversations",
-    "Pasted image 20261001143622.png",
-    "Pasted image 20261001143147.png",
-    "Pasted image 20261001113752.png",
-    "Pasted image 20261001112744.png",
-    "Pasted image 20261001110212.png",
-    "CS336/第八章 分布式训练.md",
-    "CUDA",
-    "Excalidraw/Drawing 2026-09-29 14.41.27.excalidraw.md",
-    "Excalidraw",
-    "vllm/引言-大模型推理.md",
-    "Pasted image 20260928221312.png",
-    "Pasted image 20260906160928.png",
-    "vllm/KV Cache与PageAttention的优化.md",
-    "CS336/第六章 GPU和相关优化.md",
-    "欢迎.md",
-    "路线计划.md",
-    "vllm",
-    "Pasted image 20260927214222.png",
-    "CS336/前言.md",
-    "CS336/第四章 语言模型架构、训练技术细节.md",
+    "分布式训练/并行方式/数据并行.md",
+    "分布式训练/并行方式/张量并行.md",
+    "分布式训练/并行方式/3D并行.md",
     "CS336/第三章 pytorch和资源核算.md",
-    "CS336/第二章 分词器.md",
-    "copilot/projects/CS336/project.md",
-    "copilot/projects/CS336",
-    "copilot/projects",
-    "copilot/skills/obsidian-cli/SKILL.md",
-    "copilot/skills/obsidian-cli/LICENSE",
-    "copilot/skills/obsidian-cli",
-    "copilot/skills/json-canvas/SKILL.md",
-    "copilot/skills/json-canvas/LICENSE",
-    "copilot/skills/json-canvas/references/EXAMPLES.md",
-    "copilot/skills/json-canvas/references",
-    "copilot/skills/obsidian-bases/SKILL.md",
-    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
-    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
-    "copilot/skills/obsidian-markdown/SKILL.md",
-    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
-    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
-    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
-    "copilot/skills/openartifacts-publish/SKILL.md"
+    "GPU/CUDA/Kernel/矩阵加法.md",
+    "GPU/CUDA/Kernel/引言.md",
+    "Pasted image 20261021150123.png",
+    "GPU/CUDA/Kernel/Element-wise：逐元素操作.md",
+    "GPU/CUDA/Kernel",
+    "GPU/CUDA/Kernel性能优化基础.md",
+    "GPU/NV GPU的架构演进.md",
+    "GPU/CUDA/入门——环境搭建和GPU模型.md",
+    "分布式训练/ZeRO显存优化.md",
+    "推理优化/推理引擎-vllm/模型骨架与核心算子.md",
+    "LLM结构/Models/Qwen3模型适配.md",
+    "推理优化/推理引擎-vllm/nano结构和链路总揽.md",
+    "分布式训练/并行方式/流水线并行.md",
+    "Pasted image 20261019193152.png",
+    "Pasted image 20261019191241.png",
+    "Pasted image 20261019190952.png",
+    "Pasted image 20261019190740.png",
+    "推理优化/量化Quantilization/未命名.md",
+    "推理优化/量化Quantilization/SmoothQuant：离群值的处理.md",
+    "Pasted image 20261019171045.png",
+    "Pasted image 20261019170845.png",
+    "推理优化/量化Quantilization/量化基础.md",
+    "Excalidraw/Qwen3Model_Structure.md",
+    "未命名 1.md",
+    "路线计划.md",
+    "欢迎.md",
+    "推理优化/量化Quantilization",
+    "Excalidraw/nano-vllm.md",
+    "CS336/第四章 语言模型架构、训练技术细节.md",
+    "LLM结构/引言.md",
+    "Pasted image 20261019143248.png",
+    "LLM结构/Models/未命名.md",
+    "LLM结构/Models",
+    "LLM结构/Layers",
+    "Pasted image 20261019125604.png",
+    "GPU",
+    "Pasted image 20261016152113.png",
+    "推理优化/投机解码",
+    "LLM结构",
+    "推理优化/推理引擎-vllm",
+    "分布式训练/并行方式",
+    "CUDA/element-wise逐元素算子"
   ]
 }

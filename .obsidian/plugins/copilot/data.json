@@ -318,7 +318,7 @@
   "inlineEditCommands": [],
   "projectList": [],
   "lastDismissedVersion": null,
-  "lastShownStartupVersion": null,
+  "lastShownStartupVersion": "4.0.15",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -411,7 +411,7 @@
       "providerId": "d94fffa4-819d-4e3a-80a1-2f5dbec00574",
       "info": {
         "id": "sonnet",
-        "displayName": "glm-5.3",
+        "displayName": "ark-code-latest",
         "description": "Custom Sonnet model"
       },
       "configuredModelId": "31f6c3bc-e679-41c3-b20a-8b43473537ce",
@@ -430,12 +430,35 @@
     {
       "providerId": "d94fffa4-819d-4e3a-80a1-2f5dbec00574",
       "info": {
-        "id": "kimi-k2.7-code",
-        "displayName": "kimi-k2.7-code",
-        "description": "Custom model"
+        "id": "claude-fable-5-1",
+        "displayName": "Fable",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-09-01",
+        "cost": {
+          "input": 10,
+          "output": 50,
+          "cacheRead": 0.25,
+          "cacheWrite": 12.5
+        },
+        "description": "Fable 5.1 · Most capable for your hardest and longest-running tasks · $10/$50 per Mtok"
       },
-      "configuredModelId": "980e62de-05d9-40b2-88cb-9047219855f6",
-      "configuredAt": 1790601994696
+      "configuredModelId": "9da6763f-0413-4e0c-95b9-972db3670bd4",
+      "configuredAt": 1792487086481
     }
   ],
   "backends": {
@@ -471,34 +494,12 @@
         }
       },
       {
-        "id": "kimi-k2.6",
-        "displayName": "Kimi K2.6",
-        "description": "Good for long-running reasoning tasks.",
-        "toolCall": true,
-        "reasoning": true,
-        "reasoningEfforts": [],
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 262144
-        }
-      },
-      {
         "id": "glm-5.2",
         "displayName": "GLM-5.2",
         "description": "A frontier open-weight model.",
         "toolCall": true,
         "reasoning": true,
-        "reasoningEfforts": [
-          "none",
-          "high"
-        ],
+        "reasoningEfforts": [],
         "modalities": {
           "input": [
             "text"
@@ -556,10 +557,7 @@
         "description": "The July 2026 DeepSeek V4 Flash snapshot: fast, cheap, and broadly capable.",
         "toolCall": true,
         "reasoning": true,
-        "reasoningEfforts": [
-          "none",
-          "high"
-        ],
+        "reasoningEfforts": [],
         "modalities": {
           "input": [
             "text"
