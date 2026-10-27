@@ -318,7 +318,7 @@
   "inlineEditCommands": [],
   "projectList": [],
   "lastDismissedVersion": null,
-  "lastShownStartupVersion": "4.0.15",
+  "lastShownStartupVersion": "4.0.16",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -392,7 +392,7 @@
       "info": {
         "id": "default",
         "displayName": "Default (recommended)",
-        "description": "Use the default model (currently ark-code-latest[1m])"
+        "description": "Use the default model (currently deepseek-v4-pro[1m])"
       },
       "configuredModelId": "9cd7469f-6879-4f58-bfe5-0d043b2878cb",
       "configuredAt": 1790408920420
@@ -401,7 +401,7 @@
       "providerId": "d94fffa4-819d-4e3a-80a1-2f5dbec00574",
       "info": {
         "id": "opus",
-        "displayName": "ark-code-latest",
+        "displayName": "deepseek-v4-pro",
         "description": "Custom Opus model"
       },
       "configuredModelId": "143f901e-543c-43eb-8af8-284c1f19ee0a",
@@ -411,7 +411,7 @@
       "providerId": "d94fffa4-819d-4e3a-80a1-2f5dbec00574",
       "info": {
         "id": "sonnet",
-        "displayName": "ark-code-latest",
+        "displayName": "deepseek-v4-pro",
         "description": "Custom Sonnet model"
       },
       "configuredModelId": "31f6c3bc-e679-41c3-b20a-8b43473537ce",
@@ -421,7 +421,7 @@
       "providerId": "d94fffa4-819d-4e3a-80a1-2f5dbec00574",
       "info": {
         "id": "haiku",
-        "displayName": "ark-code-latest",
+        "displayName": "deepseek-v4-flash",
         "description": "Custom Haiku model"
       },
       "configuredModelId": "0a5c9788-4af3-453f-9c97-84c11710043e",
