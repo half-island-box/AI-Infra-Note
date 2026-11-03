@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM结构/Layers/归一化Norm.md",
+                "file": "分布式训练/集合通信原语.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "归一化Norm"
+              "title": "集合通信原语"
+            }
+          },
+          {
+            "id": "9cf76e19a8586c5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPU/CUDA/Kernel性能优化基础.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kernel性能优化基础"
+            }
+          },
+          {
+            "id": "e34faf9b1a018e24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPU/CUDA/Kernel/Reduce规约及其优化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reduce规约及其优化"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM结构/Layers/归一化Norm.md",
+                "file": "GPU/CUDA/Kernel/Reduce规约及其优化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -213,17 +242,32 @@
   },
   "active": "fd442cf553b95cc4",
   "lastOpenFiles": [
-    "pasted_images/截屏2026-10-09 17.11.58.png",
-    "pasted_images/Pasted image 20261028144009.png",
-    "pasted_images/Pasted image 20261021150123.png",
-    "pasted_images/Pasted image 20261019193152.png",
-    "pasted_images/Pasted image 20261019191241.png",
-    "pasted_images/Pasted image 20261019190952.png",
-    "pasted_images/Pasted image 20261019190740.png",
-    "pasted_images/Pasted image 20261019171045.png",
-    "pasted_images/Pasted image 20261019170845.png",
-    "pasted_images/Pasted image 20261019143248.png",
-    "pasted_images/Pasted image 20261019125604.png",
+    "pasted_images/Pasted image 20261103200252.png",
+    "pasted_images/Pasted image 20261103195601.png",
+    "pasted_images/Pasted image 20261103195248.png",
+    "pasted_images/Pasted image 20261103194626.png",
+    "pasted_images/Pasted image 20261103174123.png",
+    "pasted_images/Pasted image 20261103172041.png",
+    "pasted_images/Pasted image 20261103171705.png",
+    "pasted_images/Pasted image 20261103112121.png",
+    "pasted_images/Pasted image 20261102204249.png",
+    "Pasted image 20261103200252.png",
+    "GPU/CUDA/Kernel性能优化基础.md",
+    "GPU/CUDA/Kernel/Reduce规约及其优化.md",
+    "Pasted image 20261103195601.png",
+    "分布式训练/集合通信原语.md",
+    "推理优化/量化Quantilization/KV Cache量化：KIVI和FP8缓存.md",
+    "推理优化/量化Quantilization/Weight-only INT4：GPTQ、AWQ、Marlin.md",
+    "推理优化/量化Quantilization/SmoothQuant：离群值的处理.md",
+    "推理优化/量化Quantilization/量化基础.md",
+    "集群通信/MPI：当代通信库的基础.md",
+    "AI Infra概述.md",
+    "集群通信",
+    "未命名 1.md",
+    "未命名.md",
+    "路线计划.md",
+    "GPU/CUDA/Triton入门概述.md",
+    "LLM结构/Layers/归一化Norm.md",
     "pasted_images",
     "CS336/第六章 GPU和相关优化.md",
     "LLM结构/Layers/Attention及其变体.md",
@@ -235,29 +279,14 @@
     "Excalidraw/nano-vllm.md",
     "GPU/CUDA/Kernel/Element-wise：逐元素操作.md",
     "GPU/CUDA/Kernel/全局坐标计算.md",
-    "GPU/CUDA/Kernel性能优化基础.md",
     "GPU/CUDA/Kernel/矩阵加法.md",
-    "GPU/CUDA/Kernel/引言.md",
-    "LLM结构/Models/Qwen3模型适配.md",
-    "分布式训练/并行方式/流水线并行.md",
-    "README.md",
-    "分布式训练/并行方式/数据并行.md",
-    "分布式训练/并行方式/张量并行.md",
-    "分布式训练/并行方式/3D并行.md",
     "GPU/CUDA/Kernel",
-    "GPU/NV GPU的架构演进.md",
-    "GPU/CUDA/入门——环境搭建和GPU模型.md",
-    "分布式训练/ZeRO显存优化.md",
-    "推理优化/推理引擎-vllm/模型骨架与核心算子.md",
-    "推理优化/推理引擎-vllm/nano结构和链路总揽.md",
-    "推理优化/量化Quantilization/未命名.md",
     "推理优化/量化Quantilization",
     "LLM结构/Models",
     "LLM结构/Layers",
     "GPU",
     "推理优化/投机解码",
     "LLM结构",
-    "推理优化/推理引擎-vllm",
-    "分布式训练/并行方式"
+    "推理优化/推理引擎-vllm"
   ]
 }
